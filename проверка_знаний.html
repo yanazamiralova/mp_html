@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Введите ваши данные</legend>
+            <label for="FIO">Ваше ФИО</label>
+            <input type="text" id="FIO" placeholder="Замиралова Яна Олеговна" required/> <br><br>
+            <label for="login">Придумайте логин</label>
+            <input type="text" id="login" placeholder="qwerty" required> <br><br>
+            <label for="pass">Придумайте пароль</label>
+            <input type="password" id="pass" placeholder="11111" required> <br><br>
+            <label for="pochta">Введите почту</label>
+            <input type="email" id="pochta" placeholder="zamiralova@gmail/com" required> <br><br>
+            <label for="phone_number">Введите номер телефона</label>
+            <input type="tel" id="phone_number"> <br><br>
+            <label for="adress">Ваш адрес</label>
+            <input type="text" id="adress"> <br><br>
+            <input type="radio" name="pol" value="мужской"> муж
+            <input type="radio" name="pol" value="женский"> жен <br><br>
+            <select id="colors" multiple>
+                <option value="ye">жёлтый</option>
+                <option value="rd">красный</option>
+                <option value="gr">зелёный</option>
+                <option value="bl">синий</option>
+                <option value="wht">белый</option>
+                <option value="blk">чёрный</option>
+            </select>
+            <br><br>
+            <label for="addit">Расскажите о себе</label> <br>
+            <textarea id="addit" cols="30" rows="10"></textarea> 
+            <br><br>
+            <input type="button" name="send" value="Отправить"/>
+            <input type="reset" name="c" value="Очистить форму"/>
+        </fieldset>
+    </form>
+</body>
+</html>

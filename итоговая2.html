@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza</title>
+</head>
+<body>
+    <h1>Прайс-лист  лучшей пиццы в городе</h1>
+    <img src="pizza1.png" alt="PIZZA">
+    <table>
+        <caption>Prise</caption>
+        <tr>
+            <th>Название пиццы</th>
+            <th>Гр.</th>
+            <th colspan="2">Состав</th>
+            <th>Цена</th>
+        </tr>
+        <tr>
+            <td>Вапшава</td>
+            <td>630</td>
+            <td colspan="2">Сливочный соус, моццарела, бекон, сыр камамбер, лук, огурец</td>
+            <td>390 р.</td>
+        </tr>
+        <tr>
+            <td>Грибная</td>
+            <td>580</td>
+            <td colspan="2">Пицца-соус, сыр Моццарелла, шампиньоны,</td>
+            <td>290 р.</td>
+        </tr>
+        <tr>
+            <td>Экзотика</td>
+            <td>630</td>
+            <td colspan="2">Пицца-соус, моццарелла, ветчина, тунец, томаты, яйцо, порей, зелень</td>
+            <td>639 р.</td>
+        </tr>
+        <tr>
+            <td>Четыре сезона</td>
+            <td>610</td>
+            <td colspan="2"> Увеличенная порция моцареллы, ветчина, пикантная пепперони, <br>кубики брынзы, томаты, шампиньоны, итальянские травы, фирменный томатный соус
+            </td>
+            <td>639 р.</td>
+        </tr>
+        
+        <tr>
+            <td>Морской коктель</td>
+            <td>650</td>
+            <td colspan="2"> Пиццп-соус, моццарелла, язык, морской коктель, томаты, карсный лук, чеснок, зелень</td>
+            <td>410 р.</td>
+        </tr>
+    </table>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        cfption{
+            font-size: 14pt;
+        }
+    </style>
+    <h3>После того как вы определились с вашим заказом заполните бланк ниже, после чего с вами свяжется наш оператор для подтверждения заказа</h3>
+    <form action="">
+        <fieldset>
+            <legend>Ваши данные</legend>
+            <input type="text" placeholder="ФИО" required> <br>
+            <input type="text" placeholder="+71234567890" required> <br>
+            <input type="text" placeholder="Адрес" required> <br>
+            <input type="button" name="send" value="отправть"> <br>
+            <input type="reset" name="res" value="очистить форму"> <br>
+        </fieldset>
+    </form>
+</body>
+</html>
